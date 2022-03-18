@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: linear-gradient(to bottom right,#FC766AFF , #5B84B1FF); */
+    background-image: url("bg.jpg");
+}
+
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background:black
+	url('load.gif')
+	 no-repeat center center;	
+
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 18px;
+    margin-right: 22px;
+    margin-bottom: 3.5rem;
+    margin-top: 3.5rem;
+    font-style: unset;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-shadow: rgb(91 132 177) 3px 1px;
+    color: yellow;
+    font-weight: bold;
+}
+.btn{
+    background-color: brown;
+    border: wheat;
+    float: right;
+    color: yellow;
+    padding: 14px 40px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-right: 37px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+   
+}
+.name{
+    color: black;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: left;
+    position: absolute;
+    right: auto;
+    bottom: -1%;
+    background: cadetblue;
+    margin-bottom: 14px;
+}
+.btn:hover {
+    background-color:#5B84B1FF;
+    color: white;
+  }
+#cards{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.card{
+    background-color: darkred;
+    width: 23%;
+    box-shadow: 0 0 4px 3px #fc766aff;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    color: gainsboro;
+    transition-duration: 0.5S;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.title{
+    font-size:1.3rem;
+
+}
+.mail{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin:1em;
+    font-size: 1.2rem;
+
+}
+.images{
+    width:80%;
+
+}
